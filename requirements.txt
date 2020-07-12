@@ -42,7 +42,7 @@ google-pasta==0.2.0
 gpg===1.13.1-unknown
 grpcio==1.30.0
 h5py==2.10.0
-httplib2==0.14.0
+httplib2==0.18.0
 idna==2.8
 imageio==2.9.0
 imbalanced-learn==0.7.0
