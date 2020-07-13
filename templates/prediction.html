@@ -30,22 +30,21 @@
       </svg></a>
   </nav>
 
-<div class="align">
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Word Prediction</th>
-      <th scope="col">Accuracy</th>
- </tr>
-</thead>
 
+<div style="margin-top: 10%;font-size: 150%;">
 {% for i in op %}
-<tr>
-<td>{{i[1]}}</td>
-<td>{{i[2]}}</td>
-</tr>
+
+  {% if i== '+' %}
+
+    <br>
+
+  {% else %}
+  <b>{{i}}</b>
+
+  {% endif %}
+
 {% endfor %}
-</table>
+
 </div>
 </body>
 </html>
