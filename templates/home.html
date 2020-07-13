@@ -3,6 +3,7 @@
 <head>
 	<title></title>
  {% include 'base.html' %}
+   
 </head>
 <style type="text/css">
 	.avatar-pic {
@@ -42,18 +43,19 @@
       <img src="https://mdbootstrap.com/img/Photos/Others/placeholder-avatar.jpg"
         class="rounded-circle z-depth-1-half avatar-pic" alt="example placeholder avatar">
     </div>
-
+   
         <input type="file" name="myfile" required>
-        </div>
+        
         <br><br>
-        <button type="submit" class="btn btn-mdb btn-rounded float-left" style="background: red;">Upload</button>
-      
+        <button type="submit" class="btn btn-mdb btn-rounded float-left" style="background: red;margin-left: 46%;">Upload</button>
+
+      </div>
     </div>
 </div>
   </div>
 </form>
+{% include 'consent.html' %}
 
-  {% include 'consent.html' %}
-  {% include 'footer.html' %}
 </body>
+
 </html>
