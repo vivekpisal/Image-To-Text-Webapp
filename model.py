@@ -1,11 +1,11 @@
-from PIL import Image
+
 #import easyocr
-from pylab import rcParams
+
 from IPython.display import Image
 import pytesseract
 
 
-rcParams['figure.figsize']=8,16
+
 
 '''
 def ImageToText(n):
