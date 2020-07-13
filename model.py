@@ -1,4 +1,4 @@
-import cv2
+from PIL import Image
 #import easyocr
 from pylab import rcParams
 from IPython.display import Image
@@ -15,6 +15,6 @@ def ImageToText(n):
 	return op'''
 
 def ImageToText(n):
-	img=cv2.imread(n)
-	op=pytesseract.image_to_string(img)
+	Image(n)
+	op=pytesseract.image_to_string(n)
 	return op
