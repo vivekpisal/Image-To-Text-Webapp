@@ -4,7 +4,7 @@
 from IPython.display import Image
 import pytesseract
 
-
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 
 
 '''
